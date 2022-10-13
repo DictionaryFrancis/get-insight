@@ -23,13 +23,19 @@ body{
     flex-direction: column;
 }
 
-/*----------MAIN--------*/
-
+/*----------HEADER--------*/
+header{
+    display: flex;
+}
 .image{
     width: 100%;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
+
+/*----------MAIN--------*/
+
+
 
 main{
     margin: auto 30px ;
@@ -68,9 +74,43 @@ li legend{
     text-transform: uppercase;
 }
 
-@media (min-width:440px) {
+@media (min-width:700px) {
     .container-flex{
         display: flex;
         flex-direction: row-reverse;
     }
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .container{
+        background: hsl(244, 38%, 16%);
+        border-radius: 8px;
+        margin: 25% 12%;
+    }
+    header{
+        width: 50%;
+    }
+    main{
+        width: 50%;
+        margin: 40px 0px 40px 50px;
+    }
+    h1, h2, ul {
+        text-align: start;
+    }
+    h1{
+        padding-right: 60px;
+        margin-top: 0px;
+    }
+    h2{
+        padding-right: 140px;
+        font-size: 11px;
+        word-spacing: 1.25px;
+        margin: 25px 0px;
+    }
+    li{
+        margin: 0px 20px 0px 0px;
+        padding: 0px;
+    }
+
 }
