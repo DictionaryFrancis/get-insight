@@ -86,7 +86,7 @@ li legend{
     .container{
         background: hsl(244, 38%, 16%);
         border-radius: 8px;
-        margin: 25% 12%;
+        margin: 306px;
     }
     header{
         width: 50%;
@@ -99,7 +99,7 @@ li legend{
         text-align: start;
     }
     h1{
-        padding-right: 60px;
+        padding-right: 65px;
         margin-top: 0px;
     }
     h2{
@@ -109,8 +109,14 @@ li legend{
         margin: 25px 0px;
     }
     li{
-        margin: 0px 20px 0px 0px;
         padding: 0px;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        padding-right: 166px;
     }
 
 }
